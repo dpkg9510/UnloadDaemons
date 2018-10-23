@@ -1,0 +1,9 @@
+Package: com.unloadschpa
+Name: unloadSchpa
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Unloads SafariCloudHistoryPushAgentd whenever you’re jailbroken.
+Maintainer: dpkg_
+Author: dpkg_
+Section: Utilities

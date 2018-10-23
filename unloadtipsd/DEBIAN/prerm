@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo Removing the script. 
+
+rm -r /etc/rc.d/unloadTipsd
+
+echo REMOVED SUCCESSFULLY.
+
+echo /u/dpkg_ says bye
+
+exit 0

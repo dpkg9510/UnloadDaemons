@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo Installing the script.
+
+mkdir -p /etc/rc.d && echo "launchctl unload /System/Library/LaunchDaemons/com.apple.askpermissiond.plist" > /etc/rc.d/unloadApd && chmod 777 /etc/rc.d/unloadApd
+
+echo INSTALLED SUCCESSFULLY. 
+
+echo Unloading the daemon. 
+
+cd /etc/rc.d
+bash unloadApd
+
+echo DONE!
+
+echo /u/dpkg_ says hi
+
+exit 0

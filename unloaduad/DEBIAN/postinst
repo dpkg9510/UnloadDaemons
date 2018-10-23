@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo Installing the script.
+
+mkdir -p /etc/rc.d && echo "launchctl unload /System/Library/LaunchDaemons/com.apple.coreservices.lsactivity.plist" > /etc/rc.d/unloadUad && chmod 777 /etc/rc.d/unloadUad
+
+echo INSTALLED SUCCESSFULLY. 
+
+echo Unloading the daemon. 
+
+cd /etc/rc.d
+bash unloadUad
+
+echo DONE!
+
+echo /u/dpkg_ says hi
+
+exit 0

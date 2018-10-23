@@ -1,0 +1,9 @@
+Package: com.unloadatd
+Name: unloadAtd
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Unloads Adtrackingd whenever you’re jailbroken.
+Maintainer: dpkg_
+Author: dpkg_
+Section: Utilities

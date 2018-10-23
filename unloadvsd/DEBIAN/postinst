@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo Installing the script.
+
+mkdir -p /etc/rc.d && echo "launchctl unload /System/Library/LaunchDaemons/com.apple.videosubscriptionsd.plist" > /etc/rc.d/unloadVSD && chmod 777 /etc/rc.d/unloadVSD
+
+echo INSTALLED SUCCESSFULLY. 
+
+echo Unloading the daemon. 
+
+cd /etc/rc.d
+bash unloadVSD
+
+echo DONE!
+
+echo /u/dpkg_ says hi
+
+exit 0

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo removing the script. 
+
+rm -r /etc/rc.d/unloadVSD
+
+echo Removing the script
+
+echo REMOVED SUCCESSFULLY 
+
+exit 0

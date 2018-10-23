@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo Installing the script.
+
+mkdir -p /etc/rc.d && echo "launchctl unload /System/Library/LaunchDaemons/com.apple.rapportd.plist" > /etc/rc.d/unloadRpd && chmod 777 /etc/rc.d/unloadRpd
+
+echo INSTALLED SUCCESSFULLY. 
+
+echo Unloading the daemon. 
+
+cd /etc/rc.d
+bash unloadRpd
+
+echo DONE!
+
+echo /u/dpkg_ says hi
+
+exit 0

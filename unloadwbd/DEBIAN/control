@@ -1,0 +1,9 @@
+Package: com.unloadwbd
+Name: unloadWbd
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Unloads Webbookmarksd whenever you’re jailbroken.
+Maintainer: dpkg_
+Author: dpkg_
+Section: Utilities

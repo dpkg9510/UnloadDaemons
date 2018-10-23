@@ -1,0 +1,9 @@
+Package: com.unloadnano
+Name: unloadNano
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Unloads Nanobackupd whenever you’re jailbroken.
+Maintainer: dpkg_
+Author: dpkg_
+Section: Utilities

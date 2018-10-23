@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo Installing the script.
+
+mkdir -p /etc/rc.d && echo "launchctl unload /System/Library/LaunchDaemons/com.apple.SafariCloudHistoryPushAgent.plist" > /etc/rc.d/unloadSchpa && chmod 777 /etc/rc.d/unloadSchpa
+
+echo INSTALLED SUCCESSFULLY. 
+
+echo Unloading the daemon. 
+
+cd /etc/rc.d
+bash unloadSchpa
+
+echo DONE!
+
+echo /u/dpkg_ says hi
+
+exit 0

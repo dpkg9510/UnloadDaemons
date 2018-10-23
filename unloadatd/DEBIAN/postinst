@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo Installing the script.
+
+mkdir -p /etc/rc.d && echo "launchctl unload /System/Library/LaunchDaemons/com.apple.ap.adtrackingd.plist" > /etc/rc.d/unloadAtd && chmod 777 /etc/rc.d/unloadAtd
+
+echo INSTALLED SUCCESSFULLY. 
+
+echo Unloading the daemon. 
+
+cd /etc/rc.d
+bash unloadAtd
+
+echo DONE!
+
+echo /u/dpkg_ says hi
+
+exit 0

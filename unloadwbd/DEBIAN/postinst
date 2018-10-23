@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo Installing the script.
+
+mkdir -p /etc/rc.d && echo "launchctl unload /System/Library/LaunchDaemons/com.apple.WebBookmarks.webbookmarksd.plist" > /etc/rc.d/unloadWbd && chmod 777 /etc/rc.d/unloadWbd
+
+echo INSTALLED SUCCESSFULLY. 
+
+echo Unloading the daemon. 
+
+cd /etc/rc.d
+bash unloadWbd
+
+echo DONE!
+
+echo /u/dpkg_ says hi
+
+exit 0

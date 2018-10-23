@@ -1,0 +1,9 @@
+Package: com.unloaduad
+Name: unloadUad
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Unloads Useractivityd whenever you’re jailbroken.
+Maintainer: dpkg_
+Author: dpkg_
+Section: Utilities

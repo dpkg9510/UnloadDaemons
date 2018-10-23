@@ -1,0 +1,9 @@
+Package: com.unloadvsd
+Name: unloadVSD
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Unloads Videosupscriptionsd whenever you’re jailbroken.
+Maintainer: dpkg_
+Author: dpkg_
+Section: Utilities
